@@ -3,10 +3,10 @@
 import { connect } from 'cloudflare:sockets';
 
 // 建议修改为自己的 UUID
-let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
+let userID = 'f5dea249-309f-49c3-9207-b587fd050f98';
 
 // 生成配置文件的 CF 优选 IP
-const bestCFIP = "www.gov.se"
+const bestCFIP = "cf.090227.xyz"
 
 // 用于 CF 网站的代理 IP
 const proxyIPs = ["workers.cloudflare.cyou"]; // const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.xn--b6gac.eu.org', 'edgetunnel.anycast.eu.org', 'cdn.anycast.eu.org'];
